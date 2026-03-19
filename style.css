@@ -1,0 +1,120 @@
+
+    .nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background: #f1e3e3;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.head {
+    color: blue;
+    font-size: 30px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu li {
+    color: rgb(19, 18, 18);
+    font-size: 20px;
+}
+.word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: beige;
+    font-size: 40px;
+    border-radius: 10px;
+
+}
+.box {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+.box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;}
+
+    .box {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,8,0.0);
+}
+
+
+.box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
+.box button {
+    padding: 10px 20px;
+    background: navy;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+
+.box button {
+    padding: 10px 20px;
+    background: navy;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 10px 10px 7px;
+}
+.mess{
+    background-color: rgb(24, 24, 73);
+    font-size: 25px;
+    border-radius: 20px;
+    height: 5%;
+    text-align: center;
+    width: 95%;
+    padding:40px ;
+    color: #f1e3e3;
+
+}
+.mess button{
+    background-color: blue ;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+
+}
+.fi{
+    color: rgb(60, 60, 151);
+    font-size: 40px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
